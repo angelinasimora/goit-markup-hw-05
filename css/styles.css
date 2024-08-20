@@ -731,7 +731,7 @@ img {
     fill:#4d5ae5;
 }
 
-.comment-conteiner{
+.comment-container{
     margin-bottom: 16px;
 }
 .comment-text{
@@ -783,10 +783,9 @@ img {
 }
 
 .checkbox:checked + .label-checkbox > .custom-checkbox{
-    border-color: transparent;
-    background-color: #404bbf;
-    fill: #F4F4FD;
+    background-color: #404BBF;
     border: none;
+    fill: #F4F4FD;
 }
 
 .checkbox:checked + .label-checkbox >.checkbox-icon{
@@ -823,11 +822,7 @@ img {
     border: none;
     margin: 0 auto;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-class="modal-input"
-name="user-name"
-type="text"
-id="user-name"
-required
+}
