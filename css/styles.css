@@ -643,6 +643,7 @@ img {
     justify-content: center;
     align-items: center;
     padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-modal:hover>.svg-modal,
 .button-modal:focus>.svg-modal {
@@ -822,7 +823,6 @@ img {
     border: none;
     margin: 0 auto;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
